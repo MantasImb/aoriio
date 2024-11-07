@@ -1,0 +1,42 @@
+@keyframes RotatingWords_spin_words__uVXtf {
+    12.5% {
+        transform: translateY(0)
+    }
+
+    25% {
+        transform: translateY(-105%)
+    }
+
+    37.5% {
+        transform: translateY(-100%)
+    }
+
+    50% {
+        transform: translateY(-205%)
+    }
+
+    62.5% {
+        transform: translateY(-200%)
+    }
+
+    75% {
+        transform: translateY(-305%)
+    }
+
+    87.5% {
+        transform: translateY(-300%)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+.RotatingWords_words__0NJol {
+    overflow: hidden
+}
+
+.RotatingWords_words__0NJol h1 {
+    animation: RotatingWords_spin_words__uVXtf 8s infinite;
+    height: 130%
+}
